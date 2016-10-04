@@ -61,11 +61,20 @@ nav a
 	color: white;
 }
 
-hero
+awesome
 {
 	margin-top:15px;
 	margin-bottom:15px;
 	color: green;
 	background-color: purple;
 	display:inline-block;
+}
+
+bigTitle
+{
+	text-align:center;
+	display:block;
+	font-size:30px;
+	margin-top:10px;
+	margin-bottom:10px;
 }
