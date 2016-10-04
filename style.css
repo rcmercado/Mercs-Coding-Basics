@@ -3,78 +3,88 @@
 	margin: 0px;
 }
 
-.A25
+body
 {
-	width: 25%;
-	background-color: teal;
-	display: inline-block;
-	float:left;
+	background-color: rgba(43, 179, 25, 0.19);
+	margin-left:15%;
+	margin-right:15%;
 }
-.A40
+
+p
 {
-	width: 50%;
-	background-color: yellow;
-	display: inline-block;
-	float: left;
+	color: black;
+}
+
+ul
+{
+	padding:20px;
+	list-style: 
+}
+
+hero
+{
+	color:yellow;
 }
 
 .A25, .A40
 {
+	float: left;
 	text-align: center;
+	margin-bottom: 30px;
 }
 
-body
+.A25
 {
-	margin-left: 15%;
-	margin-right:15%;
-	margin-top:10px;
-	background-color: rgba(198, 249, 198, 0.42);
+	width:25%;
+	background-color: rgba(241, 129, 129, 0.23);
 }
 
-h1
+.A40
 {
-	color: navy;
+	width:50%;
+	background-color: #f4ddf5;
 }
 
-h2
-{
-	color: blue;
-}
-
-h3
-{
-	color: red;
-}
-
-nav
-{
-	background-color: gray;
-}
-
-nav ul
+#thisNav ul
 {
 	list-style-type: none;
 }
 
-nav a
+#thisNav a
 {
-	color: white;
+	text-decoration: none;
+	color:white;
 }
 
-awesome
+#thisNav
 {
-	margin-top:15px;
-	margin-bottom:15px;
-	color: green;
-	background-color: purple;
-	display:inline-block;
+	background-color: #444343;
 }
 
-bigTitle
+h1, h2, h3, h4
 {
-	text-align:center;
-	display:block;
-	font-size:30px;
-	margin-top:10px;
-	margin-bottom:10px;
+    margin-top:15px;
+    margin-bottom:15px;
+}
+
+/* CSS that was hard-coded into the HTML page before */
+H2{ color:blue; }
+
+h4{color:rgb(222,31,187);}
+
+em {color:rgb(25,140,179);}
+
+strong {color:pink;}
+
+p{color:black;}
+
+#id1 {color:white;background-color: black}
+
+.class1 {background-color:rgb(201,0,175); color: white;}
+
+.class2 {color:white;}
+
+p
+{
+    margin-left:20px;
 }
