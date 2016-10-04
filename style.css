@@ -1,0 +1,71 @@
+*
+{
+	margin: 0px;
+}
+
+.A25
+{
+	width: 25%;
+	background-color: teal;
+	display: inline-block;
+	float:left;
+}
+.A40
+{
+	width: 50%;
+	background-color: yellow;
+	display: inline-block;
+	float: left;
+}
+
+.A25, .A40
+{
+	text-align: center;
+}
+
+body
+{
+	margin-left: 15%;
+	margin-right:15%;
+	margin-top:10px;
+	background-color: rgba(198, 249, 198, 0.42);
+}
+
+h1
+{
+	color: navy;
+}
+
+h2
+{
+	color: blue;
+}
+
+h3
+{
+	color: red;
+}
+
+nav
+{
+	background-color: gray;
+}
+
+nav ul
+{
+	list-style-type: none;
+}
+
+nav a
+{
+	color: white;
+}
+
+hero
+{
+	margin-top:15px;
+	margin-bottom:15px;
+	color: green;
+	background-color: purple;
+	display:inline-block;
+}
